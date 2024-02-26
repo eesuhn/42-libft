@@ -1,5 +1,7 @@
 *.a
+*.so
 *.o
+*.out
 *.sw*
 .vscode
 .DS_Store
