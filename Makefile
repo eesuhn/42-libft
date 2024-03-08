@@ -12,13 +12,6 @@ SRCS_BNS = ft_lstnew_bonus.c ft_lstadd_front_bonus.c ft_lstsize_bonus.c \
 			ft_lstlast_bonus.c ft_lstadd_back_bonus.c ft_lstdelone_bonus.c \
 			ft_lstclear_bonus.c ft_lstiter_bonus.c ft_lstmap_bonus.c
 
-# # ERROR : Update before submission
-# SRCS := $(wildcard *.c)
-# SRCS := $(filter-out %_bonus.c, $(SRCS))
-
-# # ERROR : Update before submission
-# SRCS_BNS := $(wildcard *_bonus.c)
-
 OBJS = $(SRCS:.c=.o)
 
 OBJS_BNS = $(SRCS_BNS:.c=.o)
@@ -39,16 +32,9 @@ bonus: $(OBJS) $(OBJS_BNS)
 clean:
 	rm -f $(OBJS) $(OBJS_BNS)
 
-# ERROR : Update before submission
 fclean: clean
 	rm -f $(NAME)
-	rm -f libft.so
 
 re: fclean all
 
-# ERROR : Remove before submission
-so:
-	cc -nostartfiles -fPIC -shared -o libft.so $(OBJS) $(OBJS_BNS)
-
-# ERROR : Update before submission
-.PHONY: all clean fclean re bonus so
+.PHONY: all clean fclean re bonus
