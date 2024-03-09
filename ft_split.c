@@ -27,7 +27,7 @@ char	**ft_split(char const *s, char c)
 	res = (char **)malloc(sizeof(char *) * (res_size + 1));
 	if (!res)
 		return (NULL);
-	res[res_size] = '\0';
+	res[res_size] = 0;
 	ft_put_split(res, (char *)s, c);
 	return (res);
 }
