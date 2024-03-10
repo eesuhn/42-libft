@@ -9,13 +9,8 @@ Building a C library from scratch
 2. Compile target program with `libft.h` and `libft.a`
 
 #### [Version 2.1](https://github.com/eesuhn/42-libft/releases/tag/v2.1)
-- Fixed `ft_lstmap` from freeing temporary list
-
-#### [Version 2.0](https://github.com/eesuhn/42-libft/releases/tag/v2.0)
-- Improved files structure
-
-#### [Version 1.1](https://github.com/eesuhn/42-libft/releases/tag/v1.1)
 - Merged bonuses to single `make` command, updated naming scheme
+- Improved files structure
 
 #### [Version 1.0](https://github.com/eesuhn/42-libft/releases/tag/v1.0)
 - Submission for 42, which requires running make bonus to compile every file
