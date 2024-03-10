@@ -2,3 +2,6 @@
 *.sw*
 .vscode
 .DS_Store
+
+objs/*
+!objs/.gitkeep
