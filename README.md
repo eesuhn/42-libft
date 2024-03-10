@@ -13,4 +13,4 @@ Building a C library from scratch
 - Improved files structure
 
 #### [Version 1.0](https://github.com/eesuhn/42-libft/releases/tag/v1.0)
-- Submission for 42, which requires running make bonus to compile every file
+- Submission for 42, which requires running `make bonus` to compile every file
