@@ -8,6 +8,9 @@ Building a C library from scratch
 1. Run `make`
 2. Compile target program with `libft.h` and `libft.a`
 
+#### [Version 2.1](https://github.com/eesuhn/42-libft/releases/tag/v2.1)
+- Fixed `ft_lstmap` from freeing temporary list
+
 #### [Version 2.0](https://github.com/eesuhn/42-libft/releases/tag/v2.0)
 - Improved files structure
 
