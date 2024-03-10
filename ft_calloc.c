@@ -21,7 +21,7 @@ void	*ft_calloc(size_t nelem, size_t elsize)
 		nelem = 1;
 		elsize = 1;
 	}
-	if (nelem > 2147483647 / elsize)
+	if (-1 / nelem < elsize)
 		return (NULL);
 	ptr = malloc(nelem * elsize);
 	if (!ptr)
