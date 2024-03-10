@@ -1,6 +1,6 @@
-NAME = libft.a
+NAME := libft.a
 
-SRCS = ft_isalpha.c \
+SRCS := ft_isalpha.c \
  		ft_isdigit.c \
  		ft_isalnum.c \
  		ft_isascii.c \
@@ -44,16 +44,18 @@ SRCS = ft_isalpha.c \
 		ft_lstiter.c \
 		ft_lstmap.c
 
-OBJS = $(SRCS:.c=.o)
+SRCS := $(addprefix srcs/, $(SRCS))
 
-CFLAGS = -Wall -Wextra -Werror
+OBJS := $(addprefix objs/, $(notdir $(SRCS:.c=.o)))
+
+CFLAGS := -Wall -Wextra -Werror
 
 all: $(NAME)
 
 $(NAME): $(OBJS)
 	@ar rcs $(NAME) $(OBJS)
 
-%.o: %.c
+objs/%.o: srcs/%.c
 	@cc $(CFLAGS) -c $< -o $@
 
 clean:
