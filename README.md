@@ -3,11 +3,11 @@
 <img src="https://github.com/eesuhn/c-piscine-14/assets/102596628/1c7ed51d-6afa-410b-ae89-92557236b064" alt="42 logo" width="30" />
 
 [Click here for subject file](./en.subject.pdf) <br>
-Building a C library from scratch
+Building custom C library from scratch
 
 #### Setting up
-1. Run `make`
-2. Compile target program with `libft.h` and `libft.a`
+1. Run `make` to compile the library.
+2. Include `libft.h`, and link the library with `-lft` flag.
 
 #### [Version 2.0](https://github.com/eesuhn/42-libft/releases/tag/v2.0)
 - Merged bonuses to single `make` command, updated naming scheme
