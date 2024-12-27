@@ -1,7 +1,9 @@
+# build
+*.o
 *.a
-*.sw*
-.vscode
-.DS_Store
+*.out
 
-objs/*
-!objs/.gitkeep
+# cache
+*.sw*
+.vscode/
+.DS_Store/
