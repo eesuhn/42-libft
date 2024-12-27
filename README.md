@@ -9,6 +9,9 @@ Building custom C library from scratch
 1. Run `make` to compile the library.
 2. Include `libft.h`, and link the library with `-lft` flag.
 
+#### [Version 3.0](https://github.com/eesuhn/42-libft/releases/tag/v3.0)
+- Added `printf` and `get-next-line`
+
 #### [Version 2.0](https://github.com/eesuhn/42-libft/releases/tag/v2.0)
 - Merged bonuses to single `make` command, updated naming scheme
 - Improved files structure
